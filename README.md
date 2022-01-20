@@ -1,3 +1,16 @@
+Hello Geeks!!! Welcome to the official website of Technex, an annual techfest hosted by the tech club-TURING of NMIMS Indore.
+Turing is our technical club where we find oppurtunities to learn and grow in various technical fields such as
+💻 - Competitive Programming
+🎮 - Gaming
+🌐 - Web Development
+🤖 - AI/ML
+📶 - IoT
+🎨 - Digital
+🗣  - PR
+TECHNEX is our annual techfest where we can find ways to flex our coding skills whether participating in HACKATHONS & DATATHONS or flaunt our designing skills by creating flawless WEBSITES or GRAPHIC DESIGNS.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
