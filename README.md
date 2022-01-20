@@ -1,12 +1,20 @@
 Hello Geeks!!! Welcome to the official website of Technex, an annual techfest hosted by the tech club-TURING of NMIMS Indore.
 Turing is our technical club where we find oppurtunities to learn and grow in various technical fields such as
+<br>
 💻 - Competitive Programming
+<br>
 🎮 - Gaming
+<br>
 🌐 - Web Development
+<br>
 🤖 - AI/ML
+<br>
 📶 - IoT
+<br>
 🎨 - Digital
+<br>
 🗣  - PR
+<br>
 TECHNEX is our annual techfest where we can find ways to flex our coding skills whether participating in HACKATHONS & DATATHONS or flaunt our designing skills by creating flawless WEBSITES or GRAPHIC DESIGNS.
 
 
