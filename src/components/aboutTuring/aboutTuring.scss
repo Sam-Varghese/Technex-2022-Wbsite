@@ -1,0 +1,33 @@
+body{
+    color: white;
+}
+
+.turingGridDiv{
+    display: flex;
+    flex-direction: row;
+    .turingGIF{
+        img{
+            width: 50vw;
+        }
+    }
+    .turingDesc{
+        // border: 2px solid;
+        width: 48vw;
+
+        .turingDescHeading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            // border: 2px solid blue;
+            font-size: 1.3vw;
+        }
+
+        .turingDescription{
+            margin: 4vw;
+            .turingDescSubHeading{
+                font-size: 1.5vw;
+            }
+        }
+    }
+}

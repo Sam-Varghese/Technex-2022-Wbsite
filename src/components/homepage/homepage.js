@@ -1,6 +1,9 @@
 import "./homepage.scss";
 import ButtonComponent from "./button/button";
 import Menu from "../menu/menu";
+import NMIMSDescComponent from "../aboutNMIMS/aboutNMIMS";
+import AboutTuringComponent from "../aboutTuring/aboutTuring";
+import SubCommitteesSection from "../subCommitteesSection/subCommitteesSection";
 
 const titleSvg = () => {
   return (
@@ -82,14 +85,6 @@ const titleSvg = () => {
   );
 };
 
-const newButton = () => {
-  return (
-    <div className="buttonStyle">
-      <p>Sam</p>
-    </div>
-  );
-};
-
 function HomePageComponent() {
   return (
     <div>
@@ -98,6 +93,9 @@ function HomePageComponent() {
         {titleSvg()}
         <ButtonComponent />
       </div>
+      <NMIMSDescComponent />
+      <AboutTuringComponent />
+      <SubCommitteesSection />
     </div>
   );
 }
