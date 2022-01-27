@@ -4,6 +4,22 @@ import Menu from "../menu/menu";
 import NMIMSDescComponent from "../aboutNMIMS/aboutNMIMS";
 import AboutTuringComponent from "../aboutTuring/aboutTuring";
 import SubCommitteesSection from "../subCommitteesSection/subCommitteesSection";
+import SubCommitteesSlider from "../slickSlider/slickSlider";
+const committeeInformation = require('../subCommitteesSection/committeeInfo.json');
+const titles = committeeInformation.committeeNames;
+
+const subCommitteeComponents = titles.map((object, index) => {
+
+  return (
+    <SubCommitteesSlider
+      bannerUrl={committeeInformation.committeeBanners[index]}
+      title={committeeInformation.committeeNames[index]}
+      description={committeeInformation.introduction[index]}
+      head={committeeInformation.committeeHeads[index]}
+    />
+  );
+})
+
 
 const titleSvg = () => {
   return (
@@ -96,6 +112,9 @@ function HomePageComponent() {
       <NMIMSDescComponent />
       <AboutTuringComponent />
       <SubCommitteesSection />
+      <div className="sliderDiv">
+        {subCommitteeComponents}
+      </div>
     </div>
   );
 }

@@ -14,8 +14,8 @@ const turingLogoSVG = () => {
           fill="white"
         ></path>
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M4.89804 3.28825C5.21796 3.75658 5.26209 3.78648 5.69232 3.78648H6.13359L5.39447 4.55374C3.0006 7.03488 1.82022 9.83488 1.82022 12.9936C1.82022 16.9395 3.61837 20.5267 6.74033 22.8384C8.39507 24.0641 10.6345 25.0904 12.3334 25.4093L12.9622 25.5189V26.037C12.9622 26.6548 12.9732 26.6648 13.6682 27.1132C14.1205 27.4021 14.1646 27.4619 13.966 27.4819C13.613 27.5317 12.0355 27.2228 10.7779 26.8441C8.35094 26.1267 6.31009 25.0007 4.52297 23.3765C2.72481 21.7423 1.58855 20.0584 0.783246 17.8562C0.0772213 15.8833 0 15.4349 0 13.0036C0.0110316 11.1103 0.0441264 10.6918 0.253727 9.90463C0.893562 7.45338 2.09601 5.2911 3.79488 3.50747C4.16996 3.10889 4.50091 2.79003 4.52297 2.79003C4.54503 2.79003 4.71051 3.00925 4.89804 3.28825Z"
           fill="#C39B10"
         ></path>
@@ -40,20 +40,20 @@ function AboutTuringComponent() {
           <div>Turing: The Techno Learning Club</div>
         </div>
         <div className="turingDescription">
-                  <div className="turingDescSubHeading">MISSION</div>
-                  <br />
+          <div className="turingDescSubHeading">MISSION</div>
+          <br />
           <div>
             To grow the interest of all the students in vast and deep fields of
             technology and motivate and guide students according to their
             interests.
-                  </div>
-                  <br />
-                  <div className="turingDescSubHeading">VISION</div>
-                  <br />
+          </div>
+          <br />
+          <div className="turingDescSubHeading">VISION</div>
+          <br />
           <div>
-            To try and provide students, every possible
-            resource to become one of the best in their fields and organize one
-            of the best tech events & competitions.
+            To try and provide students, every possible resource to become one
+            of the best in their fields and organize one of the best tech events
+            & competitions.
           </div>
         </div>
       </div>

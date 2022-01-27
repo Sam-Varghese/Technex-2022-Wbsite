@@ -5,6 +5,14 @@
   flex-direction: column;
 }
 
+.sliderDiv{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 100%;
+    // background-color: aliceblue;
+}
+
 body {
   background: linear-gradient(
       0deg,

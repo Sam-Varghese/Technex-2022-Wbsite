@@ -1,0 +1,47 @@
+{
+  "committeeNames": [
+    "Web Development",
+    "Competitive Programming",
+    "Gaming",
+    "Public Relations",
+    "Design Team",
+    "Artificial Intelligence and Machine Learning",
+    "Internet of Things"
+  ],
+  "committeeBanners": [
+    "images/webdev1.png",
+    "images/CP1.png",
+    "images/Gaming1.png",
+    "images/PR1.png",
+    "images/Design1.png",
+    "images/AI1.png",
+    "images/IOT1.png"
+  ],
+  "introduction": [
+    "This platform offers frontend, backend, and tool learning, all of which are necessary for building a professional online project....",
+    "Turing's competitive committee sought to encourage all programmers to master a variety of coding languages, from C++ to Java and Python...",
+    "This subcommittee encourages students to collaborate and create an environment where gamers may play together and explore a...",
+    "The PR subcommittee of Turing strengthens the club’s reputation. This committee manages the club’s public relations and is the backbone of... ",
+    "The creative face behind all the flyers and posters of the committee. Being a part of this committee helps you learn...",
+    "This is a place for AI/ML aficionados to talk about their learning experiences, communicate with other data geeks, exchange...",
+    "Turing's IoT committee assists students in studying and realistically deploying services and technologies..."
+  ],
+  "committeeHeads": [
+    "Prisha Sharma",
+    "Suryansh Sharma",
+    "Suyansh Kaul",
+    "Aashi Patni",
+    "Ritul Parmar",
+    "Dhruv Jain",
+    "Avisha Vijayvargiya"
+  ],
+  "detailedDescription": [
+    "This platform offers frontend, backend, and tool learning, all of which are necessary for building a professional online project.\rLearning these concepts will help you advance as a developer. Our committee hosts a beginner's workshop, which covered the following areas that are essential to know before starting a career in web development.\rIt will assist you in managing your expectations and directing you in the appropriate direction.",
+    "Turing's competitive committee sought to encourage all programmers to master a variety of coding languages, from C++ to Java and Python.\rIt aims to develop a solid understanding of data structures, algorithms, and analysis. They are also required and motivated to engage themselves in hackathons and coding competitions both on and off college in order to get experience in a competitive setting.\rMany Doubt Clearing and Essential Training Sessions are also conducted for the freshers to help them get comfortable in the programming environment.",
+    "This subcommittee encourages students to collaborate and create an environment where gamers may play together and explore a range of games ranging from first-person shooters to arcade and racing games, as well as board games such as chess.\rThe gaming committee also maintains watch of new releases in the market and arranges a number of weekend gaming nights and large gaming tournaments with several awards for the victors.",
+    "The PR subcommittee of Turing strengthens the club’s reputation. This committee manages the club’s public relations and is the backbone of Turing.\rThis committee is responsible for brushing up the professional skills of students and everything this committee does, from mail to messages, brochures to sponsorships, serves to improve an individual's professional abilities.\rIt also entails publicising the club and its activities, as well as assisting in the acquisition of prospective sponsorship possibilities.",
+    "The creative face behind all the flyers and posters of the committee. Being a part of this committee helps you learn more about graphic designing, video editing and animation.\rYou can learn how to design things professionally using Adobe and different graphic suits. Digitals are the part of Turing which helps them stand out using social media and marketing.",
+    "This is a place for AI/ML aficionados to talk about their learning experiences, communicate with other data geeks, exchange expertise, and help newcomers.\rAI/ML has recently acquired even more traction. This subcommittee helps people get started with AI and machine learning, as well as addressing future opportunities and challenges.\rAs a result of growing interest of people in this area, workshops are counducted for the indepth learning of the subject.",
+    "Turing's IoT committee assists students in studying and realistically deploying services and technologies that allow users to focus on more lucrative jobs while leaving tiresome tasks to machines.\rThis subcommittee introduces students to the realm of networks and allows them to become familiar with a variety of embedded technologies and sensors.\rIt also aims to make people aware about the scoope of this stream and many sessions are conducted to the committee members for the same."
+  ]
+}
