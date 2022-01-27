@@ -5,6 +5,8 @@ import NMIMSDescComponent from "../aboutNMIMS/aboutNMIMS";
 import AboutTuringComponent from "../aboutTuring/aboutTuring";
 import SubCommitteesSection from "../subCommitteesSection/subCommitteesSection";
 import SubCommitteesSlider from "../slickSlider/slickSlider";
+import React, { Component } from "react";
+import Slider from "react-slick";
 const committeeInformation = require('../subCommitteesSection/committeeInfo.json');
 const titles = committeeInformation.committeeNames;
 
@@ -20,6 +22,22 @@ const subCommitteeComponents = titles.map((object, index) => {
   );
 })
 
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 1300,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    }
+  ]
+};
 
 const titleSvg = () => {
   return (
@@ -113,7 +131,9 @@ function HomePageComponent() {
       <AboutTuringComponent />
       <SubCommitteesSection />
       <div className="sliderDiv">
+      <Slider {...settings}>
         {subCommitteeComponents}
+      </Slider>
       </div>
     </div>
   );
