@@ -7,6 +7,7 @@ import SubCommitteesSection from "../subCommitteesSection/subCommitteesSection";
 import SubCommitteesSlider from "../slickSlider/slickSlider";
 import React, { Component } from "react";
 import Slider from "react-slick";
+import Contacts from "../contacts/contacts";
 const committeeInformation = require('../subCommitteesSection/committeeInfo.json');
 const titles = committeeInformation.committeeNames;
 
@@ -18,6 +19,7 @@ const subCommitteeComponents = titles.map((object, index) => {
       title={committeeInformation.committeeNames[index]}
       description={committeeInformation.introduction[index]}
       head={committeeInformation.committeeHeads[index]}
+      onClick = {() => {alert("Hello")}}
     />
   );
 })
@@ -135,6 +137,7 @@ function HomePageComponent() {
         {subCommitteeComponents}
       </Slider>
       </div>
+      <Contacts />
     </div>
   );
 }

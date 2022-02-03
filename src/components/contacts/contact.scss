@@ -1,0 +1,31 @@
+.logoSection {
+  display: flex;
+  align-items: center;
+  svg {
+    margin: 1vw;
+  }
+  margin-left: 3vw;
+}
+
+.contactSites{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2vw;
+    .Site{
+      // padding: 1vw;
+      margin-bottom: 1vw;
+      margin-top: 1vw;
+      display: flex;
+      align-items: center;
+      // max-width: 30%;
+      // border: 2px solid white;
+    }
+    .icon{
+      width: 2vw;
+      margin: 1vw;
+    }
+    .contactColumn{
+      max-width: 30%;
+    }
+}
