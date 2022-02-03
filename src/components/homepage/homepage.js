@@ -19,7 +19,7 @@ const subCommitteeComponents = titles.map((object, index) => {
       title={committeeInformation.committeeNames[index]}
       description={committeeInformation.introduction[index]}
       head={committeeInformation.committeeHeads[index]}
-      onClick = {() => {alert("Hello")}}
+      // onClick = {() => {alert("Hello")}}
     />
   );
 })
