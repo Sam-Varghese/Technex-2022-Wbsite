@@ -5,22 +5,11 @@ import NMIMSDescComponent from "../aboutNMIMS/aboutNMIMS";
 import AboutTuringComponent from "../aboutTuring/aboutTuring";
 import SubCommitteesSection from "../subCommitteesSection/subCommitteesSection";
 import SubCommitteesSlider from "../slickSlider/slickSlider";
-import React, { Component } from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
-const committeeInformation = require('../subCommitteesSection/committeeInfo.json');
+import TestModal from "../modals/testModal";
+const committeeInformation = require("../subCommitteesSection/committeeInfo.json");
 const titles = committeeInformation.committeeNames;
-
-const subCommitteeComponents = titles.map((object, index) => {
-
-  return (
-    <SubCommitteesSlider
-      bannerUrl={committeeInformation.committeeBanners[index]}
-      title={committeeInformation.committeeNames[index]}
-      description={committeeInformation.introduction[index]}
-      head={committeeInformation.committeeHeads[index]}
-    />
-  );
-})
 
 const settings = {
   dots: true,
@@ -33,10 +22,10 @@ const settings = {
       breakpoint: 1300,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    }
-  ]
+        slidesToScroll: 2,
+      },
+    },
+  ],
 };
 
 const titleSvg = () => {
@@ -120,8 +109,25 @@ const titleSvg = () => {
 };
 
 function HomePageComponent() {
+  const [getState, editState] = useState(false);
+
+  const subCommitteeComponents = titles.map((object, index) => {
+    return (
+      <SubCommitteesSlider
+        bannerUrl={committeeInformation.committeeBanners[index]}
+        title={committeeInformation.committeeNames[index]}
+        description={committeeInformation.introduction[index]}
+        head={committeeInformation.committeeHeads[index]}
+        onClick={() => {
+          editState(true);
+        }}
+      />
+    );
+  });
   return (
     <div>
+      {/* <TestModal state={getState} onClose={() => editState(false)} /> */}
+      
       <Menu />
       <div className="titleDiv">
         {titleSvg()}
@@ -131,9 +137,7 @@ function HomePageComponent() {
       <AboutTuringComponent />
       <SubCommitteesSection />
       <div className="sliderDiv">
-      <Slider {...settings}>
-        {subCommitteeComponents}
-      </Slider>
+        <Slider {...settings}>{subCommitteeComponents}</Slider>
       </div>
     </div>
   );
