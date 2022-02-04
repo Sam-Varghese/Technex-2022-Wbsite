@@ -1,0 +1,43 @@
+.modal {
+  background: linear-gradient(
+    296.9deg,
+    rgba(66, 5, 22, 0.8) 1.12%,
+    rgba(125, 25, 53, 0.8) 31.57%,
+    rgba(180, 43, 81, 0.8) 54.11%,
+    rgba(230, 62, 109, 0.8) 78.19%
+  );
+  height: 90vh;
+  width: 90%;
+  .titleSvgStyle {
+    width: 70vw;
+  }
+  .headingDiv {
+    // border: 2px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+  }
+  .headName {
+    display: flex;
+    justify-content: flex-end;
+    color: #00000091;
+    font-size: 1.5vw;
+    margin: 1vw;
+    margin-bottom: 3vw;
+  }
+  .committeeDescription {
+    display: flex;
+    justify-content: center;
+    // border: 2px solid;
+    padding: 3vw;
+    font-size: 1.5vw;
+    // width: 80%;
+  }
+  .crossButton{
+      float: right;
+      margin: 1vw;
+      font-size: 2vw;
+      cursor: pointer;
+  }
+}

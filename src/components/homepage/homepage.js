@@ -10,7 +10,7 @@ import Slider from "react-slick";
 import TestModal from "../modals/testModal";
 const committeeInformation = require("../subCommitteesSection/committeeInfo.json");
 const titles = committeeInformation.committeeNames;
-
+var clickedComponentName;
 const settings = {
   dots: true,
   infinite: true,
@@ -119,6 +119,8 @@ function HomePageComponent() {
         description={committeeInformation.introduction[index]}
         head={committeeInformation.committeeHeads[index]}
         onClick={() => {
+          clickedComponentName = object;
+          console.log(clickedComponentName);
           editState(true);
         }}
       />
@@ -126,8 +128,8 @@ function HomePageComponent() {
   });
   return (
     <div>
-      {/* <TestModal state={getState} onClose={() => editState(false)} /> */}
-      
+      <TestModal state={getState} onClose={() => editState(false)} componentName={ clickedComponentName}/>
+
       <Menu />
       <div className="titleDiv">
         {titleSvg()}
