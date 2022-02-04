@@ -57,13 +57,37 @@ const headingSVG = () => {
   );
 };
 
+const sideDash = () => {
+    return (
+      <svg
+        width="4"
+        height="114"
+        viewBox="0 0 4 114"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="2"
+          y1="8.74228e-08"
+          x2="1.99999"
+          y2="114"
+          stroke="#D6A992"
+          stroke-width="4"
+        />
+      </svg>
+    );
+}
+
 function CPModal(props) {
  
     return (
       <div className="modal">
         <div className="crossButton" onClick={props.onClose}>
           X
-        </div>
+            </div>
+            <div className="sideDash">
+                {sideDash()}
+            </div>
         <div className="headingDiv">{headingSVG()}</div>
         <div className="headName">-Headed by: Suryansh Sharma</div>
         <div className="committeeDescription">

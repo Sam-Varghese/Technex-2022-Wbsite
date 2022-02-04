@@ -1,3 +1,4 @@
+import TestModal from "../modals/testModal";
 import "./homepage.scss";
 import ButtonComponent from "./button/button";
 import Menu from "../menu/menu";
@@ -24,8 +25,7 @@ const subCommitteeComponents = titles.map((object, index) => {
   );
 })
 
-import TestModal from "../modals/testModal";
-const committeeInformation = require("../subCommitteesSection/committeeInfo.json");
+// const committeeInformation = require("../subCommitteesSection/committeeInfo.json");
 var clickedComponentName;
 const settings = {
   dots: true,

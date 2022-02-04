@@ -1,11 +1,12 @@
-.modal {
+.Gamingmodal {
   background: linear-gradient(
     296.9deg,
-    rgba(66, 5, 22, 0.8) 1.12%,
-    rgba(125, 25, 53, 0.8) 31.57%,
-    rgba(180, 43, 81, 0.8) 54.11%,
-    rgba(230, 62, 109, 0.8) 78.19%
+    rgba(121, 180, 183, 0.8) 1.12%,
+    rgba(254, 251, 243, 0.8) 31.57%,
+    rgba(248, 240, 223, 0.8) 54.11%,
+    rgba(157, 157, 157, 0.8) 78.19%
   );
+
   height: 90vh;
   width: 90%;
   .titleSvgStyle {
@@ -17,6 +18,9 @@
     display: flex;
     justify-content: center;
     margin-top: 3vw;
+    svg{
+        width: 50vw;
+    }
   }
   .headName {
     display: flex;
@@ -32,17 +36,14 @@
     // border: 2px solid;
     padding: 3vw;
     font-size: 1.5vw;
+    color: #630000;
+
     // width: 80%;
   }
-  .crossButton{
-      float: right;
-      margin: 1vw;
-      font-size: 2vw;
-      cursor: pointer;
-  }
-  .sideDash{
-    float: left;
-    position: absolute;
-    margin: 2vw;
+  .crossButton {
+    float: right;
+    margin: 1vw;
+    font-size: 2vw;
+    cursor: pointer;
   }
 }
