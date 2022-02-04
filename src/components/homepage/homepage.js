@@ -5,7 +5,7 @@ import NMIMSDescComponent from "../aboutNMIMS/aboutNMIMS";
 import AboutTuringComponent from "../aboutTuring/aboutTuring";
 import SubCommitteesSection from "../subCommitteesSection/subCommitteesSection";
 import SubCommitteesSlider from "../slickSlider/slickSlider";
-import React, { Component } from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import Contacts from "../contacts/contacts";
 const committeeInformation = require('../subCommitteesSection/committeeInfo.json');
@@ -24,6 +24,9 @@ const subCommitteeComponents = titles.map((object, index) => {
   );
 })
 
+import TestModal from "../modals/testModal";
+const committeeInformation = require("../subCommitteesSection/committeeInfo.json");
+var clickedComponentName;
 const settings = {
   dots: true,
   infinite: true,
@@ -35,10 +38,10 @@ const settings = {
       breakpoint: 1300,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    }
-  ]
+        slidesToScroll: 2,
+      },
+    },
+  ],
 };
 
 const titleSvg = () => {
@@ -122,8 +125,27 @@ const titleSvg = () => {
 };
 
 function HomePageComponent() {
+  const [getState, editState] = useState(false);
+
+  const subCommitteeComponents = titles.map((object, index) => {
+    return (
+      <SubCommitteesSlider
+        bannerUrl={committeeInformation.committeeBanners[index]}
+        title={committeeInformation.committeeNames[index]}
+        description={committeeInformation.introduction[index]}
+        head={committeeInformation.committeeHeads[index]}
+        onClick={() => {
+          clickedComponentName = object;
+          console.log(clickedComponentName);
+          editState(true);
+        }}
+      />
+    );
+  });
   return (
     <div>
+      <TestModal state={getState} onClose={() => editState(false)} componentName={ clickedComponentName}/>
+
       <Menu />
       <div className="titleDiv">
         {titleSvg()}
@@ -133,9 +155,7 @@ function HomePageComponent() {
       <AboutTuringComponent />
       <SubCommitteesSection />
       <div className="sliderDiv">
-      <Slider {...settings}>
-        {subCommitteeComponents}
-      </Slider>
+        <Slider {...settings}>{subCommitteeComponents}</Slider>
       </div>
       <Contacts />
     </div>

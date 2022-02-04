@@ -2,7 +2,7 @@ import "./slickSlider.scss";
 
 function SubCommitteesSlider(props) {
     return (
-        <div className="subCommitteeComponent">
+        <div className="subCommitteeComponent" onClick = {props.onClick}>
             <div className="subCommitteeBanner">
                 <img src = {require("./"+props.bannerUrl)} />
             </div>
