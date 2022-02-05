@@ -482,18 +482,24 @@ function Contacts() {
       <div className="contactSites">
         <div className="contactColumn">
           <div class="columnHeading">FOLLOW US ON</div>
-          <div className="Site">
-            <img src={require("./icons/instagram.png")} className="icon" />{" "}
-            Instagram
-          </div>
-          <div className="Site">
-            <img src={require("./icons/linkedin.png")} className="icon" />
-            Linkedin
-          </div>
-          <div className="Site">
-            <img src={require("./icons/youtube.png")} className="icon" />
-            YouTube
-          </div>
+          <a href="https://www.instagram.com/turing.club/">
+            <div className="Site">
+              <img src={require("./icons/instagram.png")} className="icon" />{" "}
+              Instagram
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/company/turing-club-nmims">
+            <div className="Site">
+              <img src={require("./icons/linkedin.png")} className="icon" />
+              Linkedin
+            </div>
+          </a>
+          <a href="https://www.youtube.com/channel/UCm0RQ9-qmD3J_GZUzUK9ywA">
+            <div className="Site">
+              <img src={require("./icons/youtube.png")} className="icon" />
+              YouTube
+            </div>
+          </a>
         </div>
         <div className="contactColumn">
           <div class="columnHeading">ALSO LOOK AT</div>
@@ -503,8 +509,14 @@ function Contacts() {
         </div>
         <div className="contactColumn">
           <div class="columnHeading">CONTACT US</div>
-          <div className="Site">turing@nmims.edu</div>
+          <a href="mailto:turing@nmims.edu">
+            <div className="Site">
+              <img src={require("./icons/mailbox.png")} className="icon" />
+              turing@nmims.edu
+            </div>
+          </a>
           <div className="Site">
+            <img src={require("./icons/map.png")} className="icon" />
             Super Corridor Rd, Gandhi Nagar, Indore, Madhya Pradesh 452005
           </div>
         </div>
