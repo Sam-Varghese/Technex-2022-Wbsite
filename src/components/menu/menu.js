@@ -32,9 +32,7 @@ function Menu() {
     <div className="menuStyle">
       <div className="turingSVG">{turingLogoSVG()}</div>
       <div className="centerMenuItems">
-        <a href="#turingDescription">
           <div className="menuItem">About</div>
-        </a>
         <div className="menuItem">Events</div>
         <div className="menuItem">Sub-Committees</div>
         <div className="menuItem">Core Members</div>
