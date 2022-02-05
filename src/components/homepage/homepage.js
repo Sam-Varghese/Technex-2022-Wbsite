@@ -152,7 +152,7 @@ function HomePageComponent() {
         <ButtonComponent />
       </div>
       <NMIMSDescComponent />
-      <AboutTuringComponent />
+      <AboutTuringComponent id="turingDescription"/>
       <SubCommitteesSection />
       <div className="sliderDiv">
         <Slider {...settings}>{subCommitteeComponents}</Slider>
