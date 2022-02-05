@@ -482,19 +482,31 @@ function Contacts() {
       <div className="contactSites">
         <div className="contactColumn">
           <div class="columnHeading">FOLLOW US ON</div>
-          <a href="https://www.instagram.com/turing.club/">
+          <a target="_blank" href="https://www.instagram.com/turing.club/">
             <div className="Site">
               <img src={require("./icons/instagram.png")} className="icon" />{" "}
               Instagram
             </div>
           </a>
-          <a href="https://www.linkedin.com/company/turing-club-nmims">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/turing-club-nmims"
+          >
             <div className="Site">
               <img src={require("./icons/linkedin.png")} className="icon" />
               Linkedin
             </div>
           </a>
-          <a href="https://www.youtube.com/channel/UCm0RQ9-qmD3J_GZUzUK9ywA">
+          <a target="_blank" href="https://discord.gg/rR5q9ZNyt5">
+            <div className="Site">
+              <img src={require("./icons/discord.png")} className="icon" />
+              Discord
+            </div>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/channel/UCm0RQ9-qmD3J_GZUzUK9ywA"
+          >
             <div className="Site">
               <img src={require("./icons/youtube.png")} className="icon" />
               YouTube
@@ -509,16 +521,18 @@ function Contacts() {
         </div>
         <div className="contactColumn">
           <div class="columnHeading">CONTACT US</div>
-          <a href="mailto:turing@nmims.edu">
+          <a target="_blank" href="mailto:turing@nmims.edu">
             <div className="Site">
               <img src={require("./icons/mailbox.png")} className="icon" />
               turing@nmims.edu
             </div>
           </a>
-          <div className="Site">
-            <img src={require("./icons/map.png")} className="icon" />
-            Super Corridor Rd, Gandhi Nagar, Indore, Madhya Pradesh 452005
-          </div>
+          <a href="https://g.page/NMIMSIndore?share" target="_blank">
+            <div className="Site">
+              <img src={require("./icons/map.png")} className="icon" />
+              Super Corridor Rd, Gandhi Nagar, Indore, Madhya Pradesh 452005
+            </div>
+          </a>
         </div>
       </div>
     </div>
