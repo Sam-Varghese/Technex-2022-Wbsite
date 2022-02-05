@@ -1,0 +1,12 @@
+.svgModal{
+  svg{
+    height: 90vh;
+  }
+  .crossButton {
+    float: right;
+    left: -5vw;
+    font-size: 2vw;
+    cursor: pointer;
+    // border: 2px solid red;
+  }
+}

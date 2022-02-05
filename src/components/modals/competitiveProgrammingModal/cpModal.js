@@ -58,58 +58,53 @@ const headingSVG = () => {
 };
 
 const sideDash = () => {
-    return (
-      <svg
-        width="4"
-        height="114"
-        viewBox="0 0 4 114"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <line
-          x1="2"
-          y1="8.74228e-08"
-          x2="1.99999"
-          y2="114"
-          stroke="#D6A992"
-          stroke-width="4"
-        />
-      </svg>
-    );
-}
+  return (
+    <svg
+      width="4"
+      height="114"
+      viewBox="0 0 4 114"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <line
+        x1="2"
+        y1="8.74228e-08"
+        x2="1.99999"
+        y2="114"
+        stroke="#D6A992"
+        stroke-width="4"
+      />
+    </svg>
+  );
+};
 
 function CPModal(props) {
- 
-    return (
-      <div className="modal">
-        <div className="crossButton" onClick={props.onClose}>
-          X
-            </div>
-            <div className="sideDash">
-                {sideDash()}
-            </div>
-        <div className="headingDiv">{headingSVG()}</div>
-        <div className="headName">-Headed by: Suryansh Sharma</div>
-        <div className="committeeDescription">
-          Turing's competitive committee sought to encourage all programmers to
-          master a variety of coding languages, from C++ to Java and Python.
-          <br />
-          <br />
-          It aims to develop a solid understanding of data structures,
-          algorithms, and analysis. They are also required and motivated to
-          engage themselves in hackathons and coding competitions both on and
-          off college in order to get experience in a competitive setting.{" "}
-          <br />
-          <br />
-          Many Doubt Clearing and Essential Training Sessions are also conducted
-          for the freshers to help them get comfortable in the programming
-          environment.
-          <br />
-          <br />
-        </div>
+  return (
+    <div className="modal">
+      <div className="crossButton" onClick={props.onClose}>
+        X
       </div>
-    );
-  
+      <div className="sideDash">{sideDash()}</div>
+      <div className="headingDiv">{headingSVG()}</div>
+      <div className="headName">-Headed by: Suryansh Sharma</div>
+      <div className="committeeDescription">
+        Turing's competitive committee sought to encourage all programmers to
+        master a variety of coding languages, from C++ to Java and Python.
+        <br />
+        <br />
+        It aims to develop a solid understanding of data structures, algorithms,
+        and analysis. They are also required and motivated to engage themselves
+        in hackathons and coding competitions both on and off college in order
+        to get experience in a competitive setting. <br />
+        <br />
+        Many Doubt Clearing and Essential Training Sessions are also conducted
+        for the freshers to help them get comfortable in the programming
+        environment.
+        <br />
+        <br />
+      </div>
+    </div>
+  );
 }
 
 export default CPModal;
