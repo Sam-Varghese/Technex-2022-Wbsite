@@ -1,33 +1,49 @@
-body{
-    color: white;
+body {
+  color: white;
 }
 
-.turingGridDiv{
-    display: flex;
-    flex-direction: row;
-    .turingGIF{
-        img{
-            width: 50vw;
-        }
+.turingGridDiv {
+  display: flex;
+  flex-direction: row;
+  .turingGIF {
+    img {
+      width: 50vw;
     }
-    .turingDesc{
-        // border: 2px solid;
-        width: 48vw;
+  }
+  .turingDesc {
+    // border: 2px solid;
+    width: 48vw;
 
-        .turingDescHeading{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            // border: 2px solid blue;
-            font-size: 1.3vw;
-        }
-
-        .turingDescription{
-            margin: 4vw;
-            .turingDescSubHeading{
-                font-size: 1.5vw;
-            }
-        }
+    .turingDescHeading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      // border: 2px solid blue;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.5vw;
+      // line-height: 85.9%;
+      /* or 16px */
+      color: #ffffff;
+      margin: 1vw;
+      margin-bottom: 3vw;
     }
+
+    .turingDescription {
+      margin: 4vw;
+      .turingDescSubHeading {
+        font-size: 1.5vw;
+      }
+    }
+  }
+  .turingGif {
+    // height: 90vh;
+    // width: 40vw;
+    width: 50vw;
+    height: 80vh;
+    // border: 2px solid white;
+    min-width: 300px;
+  }
 }

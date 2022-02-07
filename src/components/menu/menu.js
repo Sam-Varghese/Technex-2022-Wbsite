@@ -1,5 +1,12 @@
 import "./menu.scss";
 
+function scrollDown(distInVh) {
+  window.scroll({
+    top: distInVh * window.innerHeight / 100,
+    behavior: 'smooth'
+  })
+}
+
 const turingLogoSVG = () => {
   return (
     <svg
@@ -32,12 +39,16 @@ function Menu() {
     <div className="menuStyle">
       <div className="turingSVG">{turingLogoSVG()}</div>
       <div className="centerMenuItems">
-          <div className="menuItem">About</div>
+        <div className="menuItem" onClick={() => scrollDown(100)}>
+          About
+        </div>
         <div className="menuItem">Events</div>
-        <div className="menuItem">Sub-Committees</div>
+        <div className="menuItem" onClick={() => scrollDown(290)}>
+          Sub-Committees
+        </div>
         <div className="menuItem">Core Members</div>
       </div>
-      <div className="contactButton">Contact Us</div>
+      <div className="contactButton" onClick = {() => {scrollDown(900)}}>Contact Us</div>
     </div>
   );
 }

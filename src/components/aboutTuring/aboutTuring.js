@@ -32,7 +32,7 @@ function AboutTuringComponent() {
   return (
     <div className="turingGridDiv">
       <div className="turingGIF">
-        <img src={require("./Turing.gif")} />
+        <img src={require("./Turing.gif")} className="turingGif"/>
       </div>
       <div className="turingDesc">
         <div className="turingDescHeading">
