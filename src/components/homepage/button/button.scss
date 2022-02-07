@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Future Z';
+  src: url('../../../../public/fonts/future-z-font/FutureZ-MVEaw.ttf');;
+}
+
 @mixin centerContent() {
   display: flex;
   justify-content: center;
@@ -6,7 +11,7 @@
 }
 .buttonText {
   color: white;
-  margin-top: -4vw;
+  margin-top: -3.5vw;
   width: 20vw;
   @include centerContent();
 }
@@ -14,10 +19,11 @@
   @include centerContent();
   width: 20vw;
   padding-top: 5vw;
+  font-family: 'Future Z';
   font-family: Future Z;
   font-style: italic;
   font-weight: normal;
-  font-size: 2vw;
+  font-size: 1.52vw;
   line-height: 85.9%;
 }
 
