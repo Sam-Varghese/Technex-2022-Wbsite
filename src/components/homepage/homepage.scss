@@ -41,3 +41,17 @@ body {
   height: 90vh;
   @include centerContent();
 }
+.blink {
+  animation: blink-animation 1s steps(5, start) 5;
+  -webkit-animation: blink-animation 1s steps(5, start) 5;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
