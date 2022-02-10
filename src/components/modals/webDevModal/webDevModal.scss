@@ -7,6 +7,13 @@
     rgba(230, 221, 196, 0.9) 71.64%,
     rgba(240, 233, 210, 0.9) 95.5%
   );
+  
+  .crossButton {
+    float: right;
+    margin: 1vw;
+    font-size: 2vw;
+    cursor: pointer;
+  }
   .headingDiv{
     font-family: syne;
     font-size: 3vw;

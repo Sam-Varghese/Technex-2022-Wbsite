@@ -24,17 +24,24 @@ const leftDash = () => {
 function WebDevModal(props) {
   return (
     <div className="WebModalDiv">
+      <div className="crossButton" onClick={props.onClose}>
+        X
+      </div>
       <div className="headingDiv">Welcome To Web Development</div>
       <div className="headName">-Headed by: Prisha Sharma</div>
       <div className="committeeDescription">
-        <div className="sideDashSvg">
-          {leftDash()}
-        </div>
-        This platform offers frontend, backend, and tool learning, all of which are necessary for building a professional online project. <br /><br />
-
-Learning these concepts will help you advance as a developer. Our committee hosts a beginner's workshop, which covered the following areas that are essential to know before starting a career in web development. <br /><br />
-
-It will assist you in managing your expectations and directing you in the appropriate direction. <br /><br />
+        <div className="sideDashSvg">{leftDash()}</div>
+        This platform offers frontend, backend, and tool learning, all of which
+        are necessary for building a professional online project. <br />
+        <br />
+        Learning these concepts will help you advance as a developer. Our
+        committee hosts a beginner's workshop, which covered the following areas
+        that are essential to know before starting a career in web development.{" "}
+        <br />
+        <br />
+        It will assist you in managing your expectations and directing you in
+        the appropriate direction. <br />
+        <br />
       </div>
     </div>
   );
