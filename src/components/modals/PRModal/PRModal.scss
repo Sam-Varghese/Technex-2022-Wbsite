@@ -1,12 +1,65 @@
-.svgModal{
-  svg{
-    height: 90vh;
+.PRModal {
+  background: linear-gradient(
+    300.07deg,
+    rgba(4, 28, 50, 0.9) 11.79%,
+    rgba(4, 41, 58, 0.9) 48.28%,
+    rgba(6, 70, 99, 0.9) 80.16%
+  );
+
+  .crossButton {
+    float: right;
+    margin: 1vw;
+    font-size: 2vw;
+    cursor: pointer;
+  }
+  .headingDiv {
+    font-family: syne;
+    font-size: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  height: 90vh;
+  //   border: 2px solid red;
+  width: 90%;
+  .headingDiv {
+    // border: 2px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+  }
+  .headName {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5vw;
+    margin: 1vw;
+    margin-bottom: 3vw;
+    margin-right: 2vw;color: #B4AEA5A8;
+
+  }
+  .committeeDescription {
+    display: flex;
+    justify-content: center;
+    // border: 2px solid;
+    margin-left: 10vw;
+    font-size: 1.5vw;
+    // width: 80%;
+    // margin-left: 3vw;
+    color: #eeebdd;
   }
   .crossButton {
     float: right;
-    left: -5vw;
+    margin: 1vw;
     font-size: 2vw;
     cursor: pointer;
-    // border: 2px solid red;
+  }
+  .leftDash{
+    position: absolute;
+    // border: 2px solid;
+    top: 4vw;
+    left: 5vw;
+    padding: 1vw;
   }
 }

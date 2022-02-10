@@ -10,8 +10,8 @@ function scrollDown(distInVh) {
 const turingLogoSVG = () => {
   return (
     <svg
-      width="2vw"
-      height="28"
+      width="5vw"
+      height="8vh"
       viewBox="0 0 32 28"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

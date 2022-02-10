@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Future Z';
-  src: url('../../../../public/fonts/future-z-font/FutureZ-MVEaw.ttf');;
+  src: url('../../../../public/fonts/future-z-font/FutureZ-MVEaw.ttf');
 }
 
 @mixin centerContent() {
@@ -25,6 +25,7 @@
   font-weight: normal;
   font-size: 1.52vw;
   line-height: 85.9%;
+  cursor: pointer;
 }
 
 // Media queries to position the text inside the button
