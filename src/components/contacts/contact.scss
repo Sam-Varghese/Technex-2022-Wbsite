@@ -10,24 +10,35 @@
 .contactSites {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
+    margin-left: 3vw;
+  // border: 2px solid white;
   font-size: 2vw;
   .Site {
     // padding: 1vw;
     margin-bottom: 1vw;
     margin-top: 1vw;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     // max-width: 30%;
     // border: 2px solid white;
+    margin-bottom: 1vw;
     font-size: 1.5vw;
   }
   .icon {
     width: 2vw;
-    margin: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
   }
   .contactColumn {
     max-width: 30%;
+    // border: 2px solid ;
+    padding: 1vw;
+    margin: 1vw;
+  }
+  .columnHeading{
+    font-size: 1.5vw;
+    margin-bottom: 3vw;
   }
 }
 a {

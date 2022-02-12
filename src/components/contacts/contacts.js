@@ -514,7 +514,7 @@ function Contacts() {
           </a>
         </div>
         <div className="contactColumn">
-          <div class="columnHeading">ALSO LOOK AT</div>
+          <div className="columnHeading">ALSO LOOK AT</div>
           <div className="Site">Core Members</div>
           <div className="Site">Past Events</div>
           <div className="Site">Upcoming</div>
