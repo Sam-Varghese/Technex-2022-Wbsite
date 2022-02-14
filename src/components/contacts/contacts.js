@@ -497,12 +497,7 @@ function Contacts() {
               Linkedin
             </div>
           </a>
-          <a target="_blank" href="https://discord.gg/rR5q9ZNyt5">
-            <div className="Site">
-              <img src={require("./icons/discord.png")} className="icon" />
-              Discord
-            </div>
-          </a>
+          
           <a
             target="_blank"
             href="https://www.youtube.com/channel/UCm0RQ9-qmD3J_GZUzUK9ywA"
@@ -517,7 +512,8 @@ function Contacts() {
           <div className="columnHeading">ALSO LOOK AT</div>
           <div className="Site">Core Members</div>
           <div className="Site">Past Events</div>
-          <div className="Site">Upcoming</div>
+          <div className="Site">Upcoming Events</div>
+          <div className="Site">Gallery</div>
         </div>
         <div className="contactColumn">
           <div class="columnHeading">CONTACT US</div>

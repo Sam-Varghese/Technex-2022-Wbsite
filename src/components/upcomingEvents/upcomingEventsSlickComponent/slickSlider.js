@@ -1,6 +1,6 @@
-import "./slickSliderComponent.scss";
+import "./slickSlider.scss";
 
-function SubCommitteesSlider(props) {
+function UpcomingEventsSlickComponent(props) {
     return (
         <div className="subCommitteeComponent" onClick = {props.onClick}>
             <div className="subCommitteeBanner">
@@ -12,11 +12,9 @@ function SubCommitteesSlider(props) {
             <div className="subCommitteeComponentDescription">
                 {props.description}
             </div>
-            <div className="subCommitteeHeads">
-                {"Head | "+props.head}
-            </div>
+            
         </div>
     )
 }
 
-export default SubCommitteesSlider;
+export default UpcomingEventsSlickComponent;

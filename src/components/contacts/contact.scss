@@ -1,17 +1,18 @@
 .logoSection {
   display: flex;
   align-items: center;
+
   svg {
     margin: 1vw;
   }
-  margin-left: 3vw;
+  margin-left: 5.8vw;
 }
 
 .contactSites {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-    margin-left: 3vw;
+  margin-left: 3vw;
   // border: 2px solid white;
   font-size: 2vw;
   .Site {
@@ -23,7 +24,8 @@
     // max-width: 30%;
     // border: 2px solid white;
     margin-bottom: 1vw;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+    font-weight: 100;
   }
   .icon {
     width: 2vw;
@@ -35,8 +37,9 @@
     // border: 2px solid ;
     padding: 1vw;
     margin: 1vw;
+    margin-left: 3vw;
   }
-  .columnHeading{
+  .columnHeading {
     font-size: 1.5vw;
     margin-bottom: 3vw;
   }

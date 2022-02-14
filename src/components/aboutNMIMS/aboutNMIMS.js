@@ -89,7 +89,7 @@ function NMIMSDescComponent() {
           <div className="aboutNMIMSDesc">
             {NmimsSvg()}
             <div className="NMIMStitle">
-              School of Technology Management and Engineering, NMIMS, Indore
+              School of Technology Management and Engineering, NMIMS Indore
             </div>
             <div className="aboutNM">
               With a legacy of 40 years, NMIMS has grown to be one of the top-10

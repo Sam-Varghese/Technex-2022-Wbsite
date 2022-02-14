@@ -35,11 +35,14 @@ body {
       rgba(0, 0, 0, 0.2) 67.71%
     ),
     linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #000000;
+  
 }
 
 .titleDiv{
   height: 90vh;
   @include centerContent();
+  // border: 2px solid red;
+  background-color: black;
 }
 .blink {
   animation: blink-animation 1s steps(5, start) 3;

@@ -4,6 +4,7 @@ const turingLogoSVG = () => {
     <div>
       <svg
         width="4vw"
+        // height="3vw"
         // height="28"
         viewBox="0 0 32 28"
         fill="none"

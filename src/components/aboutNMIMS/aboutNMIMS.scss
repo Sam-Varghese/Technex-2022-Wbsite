@@ -38,7 +38,11 @@
   flex-direction: column;
   // border: 2px solid red;
   min-width: 300px;
-
+  font-weight: 50;
+  letter-spacing: 0.5px;
+  line-height: 133.9%;
+  letter-spacing: -2%;
+  font-size: 1.2vw;
 }
 
 .NMIMStitle {
@@ -50,10 +54,10 @@
   // left: 69px;
   // top: 976px;
 
-  font-family: Roboto;
+      // font-family: 'Times New Roman';
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   // line-height: 85.9%;
   /* or 16px */
   display: flex;
@@ -66,15 +70,18 @@
 }
 
 .aboutNM {
-  font-family: Roboto;
-  font-size: 1.3vw;
+  // font-family: Roboto;
+  font-size: 1.2vw;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 50;
   //   line-height: 25px;
   letter-spacing: -0.02em;
   padding-right: 8vw;
   padding-left: 8vw;
   text-align: left;
+  letter-spacing: 0.5px;
+  line-height: 133.9%;
+  letter-spacing: -2%;
   // border: 2px solid white;
 }
 

@@ -1,0 +1,53 @@
+body {
+  color: white;
+}
+
+.subCommitteeComponent {
+  height: 75vh;
+  width: 27vw;
+  background: #ffffff;
+  border-radius: 0.5em;
+//   padding: 1vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  .subCommitteeBanner {
+    //   border: 2px solid gold;
+    img {
+      width: 27vw;
+      overflow: hidden; 
+    }
+  }
+  .subCommitteeComponentHeading {
+    font-size: 1.6vw;
+    color: #043973;
+    padding-top: 1.2vw;
+    padding-bottom: 0.2vw;
+    padding-left: 1vw;
+    height: 9vh;
+  }
+  .subCommitteeComponentDescription {
+    font-size: 1.1vw;
+    /* Intro Text */
+
+    font-family: Mulish;
+    // font-style: bold;
+    /* Gray 3 */
+    color: #828282;
+    // color: #eb1818;
+    padding: 1vw;
+    // height: 195vh;
+  }
+  .subCommitteeComponentHead {
+    background: #6d7d8b;
+    font-size: vw;
+  }
+  .subCommitteeHeads {
+    display: flex;
+    justify-content: right;
+    padding-right: 2vw;
+    color: #6D7D8B;
+    font-size: 1.2vw;
+  }
+}

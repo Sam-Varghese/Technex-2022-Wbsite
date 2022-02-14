@@ -20,10 +20,10 @@ body {
       align-items: center;
       flex-direction: column;
       // border: 2px solid blue;
-      font-family: Roboto;
+      // font-family: 'Times New Roman';
       font-style: normal;
       font-weight: 500;
-      font-size: 1.5vw;
+      font-size: 1.4vw;
       // line-height: 85.9%;
       /* or 16px */
       color: #ffffff;
@@ -35,9 +35,17 @@ body {
       // border: 2px solid white;
       padding-right: 5vw;
       padding-left: 5vw;
+      // font-family: Roboto;
       margin: 4vw;
+      font-weight: 50;
+      letter-spacing: 0.5px;
+      line-height: 133.9%;
+      letter-spacing: -2%;
+      font-size: 1.2vw;
+      // para-spacing: 25;
       .turingDescSubHeading {
         font-size: 1.5vw;
+        margin-top: 3vw;
       }
     }
   }
